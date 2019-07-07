@@ -1,0 +1,95 @@
+BASIC DOCKER COMMANDS:
+
+1. For getting the client and server versions
+
+syntax: docker version
+
+
+2. To know the version of docker installed
+
+syntax: docker -v 
+
+
+3. To view the system wide information like OS, Kernel and docker versions etc.
+
+synatx: docker info
+
+
+4. To download docker Images of a particular version(optional)
+
+syntax: docker pull <Name-of-Image>: version
+
+
+5. To get information about any other Docker command
+
+syntax: docker --help
+
+
+6. To search for an image in registry
+
+synatx: docekr search <Name-of-Image>
+
+
+7. To list all downloaded docker container images 
+
+syntax: docekr images
+
+8. For launching docker container 
+
+syntax: docker run -it  <Name-of-Image> 
+
+9. For listing all the running containers
+
+syntax: docker ps
+
+
+10. To start, stop, restart, kill the containers
+
+syntax: docker start(or stop or restart or kill) <Name-of-Image>
+
+
+11. To delete/remove a container
+
+syntax: docker rm <Name-of-Container>
+
+
+12. to delete/remove an image
+
+syntax: docker rmi <Name-of-Image>
+
+
+13. To display the history of socker image
+
+syntax: docker history <Name-of-Image>
+
+
+14. To display cpu, memory, and network I/O usage of all containers
+
+syntax: docker stats
+
+
+15. To build an image from a dockerfile
+
+syntax: docker build -t[username/]<image-name>[:tag]<dockerfile-path>
+
+
+16. To attach to a running container
+
+syntax: docket attach docker <Name-of-Image>
+
+
+17. To execute a new process in an existing container
+
+syntax: docker exec -it <container-name><process>
+
+
+18. To push an image to a registry
+
+syntax: docker push [registry/][username/]<image-name><:tag>
+
+
+
+
+
+
+
